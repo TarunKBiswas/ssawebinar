@@ -25,7 +25,7 @@ const SellProduct = () => {
   return (
     <div className="w-full h-screen flex flex-col gap-14 lg:gap-[100px] first:lg:gap-16 text-center overflow-auto">
       <Navbar />
-      <HeroSection data={syllabusData?.onlineSelling} heroData={heroData} />
+      <HeroSection data={syllabusData?.productSellingData} heroData={heroData} />
       <Pointers data={learningData} />
       <FirstStep data={stepsData} />
       <Testimony />

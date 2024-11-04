@@ -94,17 +94,17 @@ export const syllabusData = {
     { title: "03:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
-  onlineSelling: [
-    { title: "22nd October 2024", Icon: calendar },
+  productSellingData: [
+    { title: "13th November 2024", Icon: calendar },
     { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
-  instaClass: [
+  courseSellingData: [
     { title: "7th October 2024", Icon: calendar },
     { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
-  appClass: [
+  appMClassData: [
     { title: "7th October 2024", Icon: calendar },
     { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
