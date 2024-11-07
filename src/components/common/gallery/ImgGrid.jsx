@@ -25,6 +25,7 @@ const ImgGrid = ({ data, title, desc, gridCount }) => {
                   className="rounded-lg overflow-hidden w-full h-full max-w-[620px] max-h-[350px]"
                 >
                   <img
+                    alt="grid Images"
                     src={m || m.imgs}
                     className="w-full h-full object-cover object-center"
                   />

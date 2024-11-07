@@ -1,11 +1,11 @@
 import Marquee from "react-fast-marquee";
-import media1 from "../../../assets/media/amazon.png";
-import media2 from "../../../assets/media/dainik_bhaskar.png";
-import media3 from "../../../assets/media/flipkart.png";
-import media4 from "../../../assets/media/inc_42.png";
-import media5 from "../../../assets/media/shopify.png";
-import media6 from "../../../assets/media/whatsapp.png";
-import media7 from "../../../assets/media/youtube.png";
+import media1 from "../../../assets/media/amazon.webp";
+import media2 from "../../../assets/media/dainik_bhaskar.webp";
+import media3 from "../../../assets/media/flipkart.webp";
+import media4 from "../../../assets/media/inc_42.webp";
+import media5 from "../../../assets/media/shopify.webp";
+import media6 from "../../../assets/media/whatsapp.webp";
+import media7 from "../../../assets/media/youtube.webp";
 
 const mediIcons = [media1, media2, media3, media4, media5, media6, media7];
 
@@ -21,6 +21,7 @@ const MediaIcon = () => {
             >
               <img
                 src={el}
+                alt={`${el}`}
                 className=" max-h-14 lg:max-h-20 py-2 object-contain w-full h-full"
               />
             </div>

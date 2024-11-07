@@ -2,7 +2,7 @@ import { testimony } from "../../../constants/common/MenuData";
 import Container from "../ui/Container";
 import SectionCommunity from "../ui/SectionCommunity";
 import VideoCard from "./VideoCard";
-import msg from '../../../assets/chats.png'
+import msg from '../../../assets/chats.webp'
 
 const Testimony = () => {
   return (
@@ -27,7 +27,7 @@ const Testimony = () => {
             </div>
 
             <div>
-              <img src={msg} alt="" className="w-full h-full object-contain" />
+              <img src={msg} alt="Testimony" className="w-full h-full object-contain" />
             </div>
           </div>
         </Container>

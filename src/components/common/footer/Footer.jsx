@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Container from "../ui/Container";
 import logo from "../../../assets/logo.png";
-import ytIcon from "../../../assets/icons/ytb.png";
-import facebookIcon from "../../../assets/icons/fb.png";
-import instagramIcon from "../../../assets/icons/insta.png";
+import ytIcon from "../../../assets/icons/ytb.webp";
+import facebookIcon from "../../../assets/icons/fb.webp";
+import instagramIcon from "../../../assets/icons/insta.webp";
 
 const socialLink = [
   { icon: facebookIcon, href: "https://www.facebook.com/socialseller.in/" },

@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="w-full lg:w-auto inline-flex items-center justify-between gap-6 ">
           <img
             src={logo}
-            alt=""
+            alt="Logo"
             className="h-20 object-contain max-w-[85%] m-auto"
           />
         </div>

@@ -1,6 +1,6 @@
-import obIcon1 from "../assets/icons/wapp.svg";
-import obIcon2 from "../assets/icons/bot.svg";
-import obIcon3 from "../assets/icons/api.svg";
+import obIcon1 from "../assets/icons/wapp.webp";
+import obIcon2 from "../assets/icons/bot.webp";
+import obIcon3 from "../assets/icons/api.webp";
 
 import faceImg from "../assets/faceimgwm.webp";
 

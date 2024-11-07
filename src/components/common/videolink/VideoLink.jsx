@@ -24,6 +24,7 @@ const VideoLink = ({ videoDet, checkoutLink }) => {
               {videoDet.map((m, i) => (
                 <div key={`${"m"}+${i}`} className="md:py-2">
                   <img
+                    alt="Video thumb"
                     src={m.thumbImg}
                     className="cursor-pointer hover:scale-[1.02] transition-all ease-out duration-[0.3s]"
                     onClick={() => vdoUrl(m.videoURL)}

@@ -1,6 +1,6 @@
-import obIcon1 from "../assets/icons/caseStudy.svg";
-import obIcon2 from "../assets/icons/qna.svg";
-import obIcon3 from "../assets/icons/consultancy.svg";
+import obIcon1 from "../assets/icons/caseStudy.webp";
+import obIcon2 from "../assets/icons/qna.webp";
+import obIcon3 from "../assets/icons/consultancy.webp";
 
 import faceImg from "../assets/faceimgiw.webp";
 

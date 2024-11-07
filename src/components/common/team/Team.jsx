@@ -21,6 +21,7 @@ const Team = () => {
                 className="rounded-lg overflow-hidden w-full h-full max-w-[620px] max-h-[350px]"
               >
                 <img
+                alt="Team Images"
                   src={m}
                   className="w-full h-full object-cover object-center"
                 />

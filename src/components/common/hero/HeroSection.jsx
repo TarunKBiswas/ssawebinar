@@ -72,6 +72,7 @@ const HeroSection = ({ data, heroData }) => {
                 <div className="flex items-center justify-start gap-3">
                   <div className="w-full h-full max-w-32">
                     <img
+                    alt="rating"
                       src={ratingview}
                       className="w-full h-full object-contain"
                     />

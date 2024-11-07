@@ -22,11 +22,6 @@ const Syllabus = ({ data }) => {
                     key={`${"t"}+${i}`}
                     className="w-full px-6 flex items-center justify-start lg:justify-center gap-6 font-readex font-medium"
                   >
-                    {/* <div className="h-16 w-16 lg:w-16 lg:h-16 rounded-full  bg-[#9BD4FD26] relative flex flex-col items-center justify-center">
-                        <div className="w-full flex flex-col items-center justify-center absolute">
-                          <img src={data.Icon} className="w-8 h-8" />
-                        </div>
-                      </div> */}
                     <IconBody iconURL={data.Icon} />
                     <div className="text-sm tracking-wider lg:text-base lg:font-semibold leading-5 capitalize text-white font-readex text-center">
                       {data.title}
