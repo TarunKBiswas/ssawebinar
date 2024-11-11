@@ -12,7 +12,8 @@ const Testimony = () => {
         custom={true}
         title={
           <span>
-            What <span className=" text-primary">our users</span> have to say
+            {/* What <span className=" text-primary">our users</span> have to say */}
+            testimonials
           </span>
         }
       >

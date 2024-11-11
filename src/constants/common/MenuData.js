@@ -136,6 +136,11 @@ export const brandImages = [
 
 export const testimony = [
   {
+    link: "https://fast.wistia.net/embed/iframe/1s3i1orhnh?seo=false&videoFoam=true",
+    profile: "YouTube Content Creator",
+    name: "Mr. Mathew",
+  },
+  {
     link: "https://fast.wistia.net/embed/iframe/581n3okn22?seo=false&videoFoam=true",
     profile: "Co-Founder Blue Tea",
     name: "Mr. Sunil Saha",
@@ -150,9 +155,9 @@ export const testimony = [
     profile: "Founder Trendshub",
     name: "Mr. Rahul",
   },
-  {
-    link: "https://fast.wistia.net/embed/iframe/btph7m2gkn?seo=false&videoFoam=true",
-    profile: "Digital Marketting Executive",
-    name: "Mr. Rohan",
-  },
+  // {
+  //   link: "https://fast.wistia.net/embed/iframe/btph7m2gkn?seo=false&videoFoam=true",
+  //   profile: "Digital Marketting Executive",
+  //   name: "Mr. Rohan",
+  // },
 ];
