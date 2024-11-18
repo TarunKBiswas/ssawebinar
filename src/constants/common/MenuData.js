@@ -91,14 +91,15 @@ export const syllabusData = {
     { title: "Price : ₹199 only", Icon: wallet },
   ],
   whatsapp: [
-    // { title: "every tuesday", Icon: calendar },
-    { title: "Coming Soon", Icon: calendar },
-    // { title: "03:00 PM Onwards", Icon: clock },
+    { title: "26th November 2024", Icon: calendar },
+    // { title: "Coming Soon", Icon: calendar },
+    { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
   productSellingData: [
-    { title: "13th November 2024", Icon: calendar },
-    { title: "06:00 PM Onwards", Icon: clock },
+    { title: "Coming Soon", Icon: calendar },
+    // { title: "13th November 2024", Icon: calendar },
+    // { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
   courseSellingData: [
