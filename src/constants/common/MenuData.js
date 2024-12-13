@@ -86,18 +86,18 @@ export const socialMenuItems = [
 export const syllabusData = {
   dropshipping: [
     // { title: "7th October 2024", Icon: calendar },
-    { title: "Coming Soon", Icon: calendar },
+    { title: "Recored Masterclass", Icon: calendar },
     // { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
   whatsapp: [
-    { title: "26th November 2024", Icon: calendar },
+    { title: "Recored Masterclass", Icon: calendar },
     // { title: "Coming Soon", Icon: calendar },
     { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
   ],
   productSellingData: [
-    { title: "Coming Soon", Icon: calendar },
+    { title: "Recored Masterclass", Icon: calendar },
     // { title: "13th November 2024", Icon: calendar },
     // { title: "06:00 PM Onwards", Icon: clock },
     { title: "Price : ₹199 only", Icon: wallet },
