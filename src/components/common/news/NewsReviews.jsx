@@ -18,12 +18,12 @@ const NewsReviews = () => {
           <img
             src={newsd}
             alt="news-featuring"
-            className="hidden md:block object-contain"
+            className="hidden md:block object-contain w-full"
           />
           <img
             src={newsm}
             alt="news-featuring"
-            className="md:hidden block object-contain"
+            className="md:hidden block object-contain w-full"
           />
         </Container>
       </SectionCommunity>
