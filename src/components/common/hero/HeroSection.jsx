@@ -17,6 +17,7 @@ for (let index = 0; index < 5; index++) {
     />
   );
 }
+
 const HeroSection = ({ data, heroData }) => {
   return (
     <>
@@ -72,7 +73,7 @@ const HeroSection = ({ data, heroData }) => {
                 <div className="flex items-center justify-start gap-3">
                   <div className="w-full h-full max-w-32">
                     <img
-                    alt="rating"
+                      alt="rating"
                       src={ratingview}
                       className="w-full h-full object-contain"
                     />

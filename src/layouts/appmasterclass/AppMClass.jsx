@@ -15,16 +15,42 @@ import Footer from "../../components/common/footer/Footer";
 import VideoPlayer from "../../components/common/videolink/VideoPlayer";
 import { Link } from "react-router-dom";
 import { JoinButton1 } from "../../components/common/ui/Buttons";
-import { brandImages, otherAwards, socialHandle, syllabusData, teamImages } from "../../constants/common/MenuData";
-import { heroData, learningData, stepsData, videoData } from "../../constants/appClassData";
+import {
+  brandImages,
+  otherAwards,
+  socialHandle,
+  teamImages,
+} from "../../constants/common/MenuData";
+import {
+  heroData,
+  learningData,
+  stepsData,
+  videoData,
+} from "../../constants/appClassData";
+import { useCallback, useEffect, useState } from "react";
+import axios from "axios";
 
 const AppMClass = () => {
   const snap = useSnapshot(state);
+  const [myData, setMyData] = useState("");
+
+  const data = useCallback(async () => {
+    try {
+      let res = await axios("/appclassdata.json");
+      setMyData(res.data);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
+  useEffect(() => {
+    data();
+  }, []);
 
   return (
     <div className="w-full h-screen flex flex-col gap-14 lg:gap-[100px] first:lg:gap-16 text-center overflow-auto">
       <Navbar />
-      <HeroSection data={syllabusData?.appMClassData} heroData={heroData} />
+      <HeroSection data={myData} heroData={heroData} />
       <Pointers data={learningData} />
       <FirstStep data={stepsData} />
       <Testimony />
@@ -38,7 +64,11 @@ const AppMClass = () => {
 
       <ImgGrid data={teamImages} title="Meet our social seller team" />
       <NewsReviews />
-      <ImgGrid title="Our Socialmedia Handle" data={socialHandle} gridCount={"md:grid-cols-2"} />
+      <ImgGrid
+        title="Our Socialmedia Handle"
+        data={socialHandle}
+        gridCount={"md:grid-cols-2"}
+      />
       <VideoLink videoDet={videoData} checkoutLink={heroData?.checkout} />
 
       <ImgGrid

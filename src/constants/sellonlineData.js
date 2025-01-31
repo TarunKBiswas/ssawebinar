@@ -8,12 +8,12 @@ export const heroData = {
   faceImg: faceImg,
   heroTagline: `<p class="text-[24px] md:text-[55px] font-bold md:leading-[70px] leading-9 text-center md:text-left text-[#F5F5F5] capitalize">
                   A Complete guide to Start
-                  <span class="text-red-600 opacity-100 font-bold">Online Selling</span>.
+                  <span class="text-red-600 opacity-100 font-bold">Ecommerce Business</span> in India.
                 </p>`,
   countUpVal: 2136,
   countUpSuffix: "+",
   countUpText: "People Registered",
-  title: "A Complete guide to Start *Online Selling*.",
+  title: "A Complete guide to Start *Ecommerce Business*in India.",
   subTitle: "Join 2 hours live webinar to launch Online Selling from ",
   subTitleBOldText: "Lakshit Sethiya",
   videoLink:

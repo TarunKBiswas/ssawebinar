@@ -3,7 +3,6 @@ import SectionCommunity from "../ui/SectionCommunity";
 import Container from "../ui/Container";
 
 const ImgGrid = ({ data, title, desc, gridCount }) => {
-  console.log(data);
   return (
     <div className="w-full bg-transparent">
       <SectionCommunity

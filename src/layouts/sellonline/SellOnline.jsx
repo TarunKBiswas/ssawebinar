@@ -19,7 +19,6 @@ import {
   brandImages,
   otherAwards,
   socialHandle,
-  syllabusData,
   teamImages,
 } from "../../constants/common/MenuData";
 import {
@@ -28,14 +27,30 @@ import {
   stepsData,
   videoData,
 } from "../../constants/sellonlineData";
+import { useCallback, useEffect, useState } from "react";
+import axios from "axios";
 
 const SellOnline = () => {
   const snap = useSnapshot(state);
+  const [myData, setMyData] = useState("");
+
+  const data = useCallback(async () => {
+    try {
+      let res = await axios("/sellonlinedata.json");
+      setMyData(res.data);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
+  useEffect(() => {
+    data();
+  }, []);
 
   return (
     <div className="w-full h-screen flex flex-col gap-14 lg:gap-[100px] first:lg:gap-16 text-center overflow-auto">
       <Navbar />
-      <HeroSection data={syllabusData?.sellonlineData} heroData={heroData} />
+      <HeroSection data={myData} heroData={heroData} />
       <Pointers data={learningData} />
       <FirstStep data={stepsData} />
       <Testimony />
