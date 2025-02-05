@@ -22,7 +22,8 @@ export const heroData = {
   videoLink:
     "https://fast.wistia.net/embed/iframe/4bgr9mtej8?seo=false&videoFoam=true",
   checkout:
-    "https://courses.socialseller.in/web/checkout/645f486b3868ef031920de97",
+    // "https://courses.socialseller.in/web/checkout/645f486b3868ef031920de97",
+    "https://courses.socialseller.in/l/296d1e8ece",
   joinBtnText: "Register Now at ₹199 only",
 };
 

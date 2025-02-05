@@ -20,7 +20,8 @@ export const heroData = {
     "https://fast.wistia.net/embed/iframe/l7ldct1e1z?seo=false&videoFoam=true",
   joinBtnText: "Register Now at ₹199 only",
   checkout:
-    "https://courses.socialseller.in/web/checkout/652f7fc3f9528762c9e72024",
+    // "https://courses.socialseller.in/web/checkout/652f7fc3f9528762c9e72024",
+    "https://courses.socialseller.in/l/4928ebf2cb",
 };
 
 export const learningData = {
