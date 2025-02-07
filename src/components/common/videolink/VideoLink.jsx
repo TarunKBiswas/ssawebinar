@@ -16,7 +16,7 @@ const VideoLink = ({ videoDet, checkoutLink }) => {
         className="bg-transparent"
         custom={true}
         divClassName
-        title={"Free Videos For WhatsApp Marketing"}
+        title={"Free Videos For *WhatsApp Marketing*"}
       >
         <Container classes={"p-0"} classes2={"!px-0"}>
           <div className="flex flex-col gap-14">

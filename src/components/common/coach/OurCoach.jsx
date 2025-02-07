@@ -14,7 +14,7 @@ const OurCoach = () => {
         className="bg-transparent"
         custom={true}
         loop={true}
-        title={"Meet Your Coach"}
+        title={"Meet Your *Coach*"}
         description={""}
       >
         <Container className={"xl:w-[60vw]"} classes={"p-0"} classes2={"!px-0"}>

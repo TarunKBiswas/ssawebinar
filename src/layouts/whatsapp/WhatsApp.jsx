@@ -58,14 +58,14 @@ const WhatsApp = () => {
       <CmAward />
       <ImgGrid
         data={otherAwards}
-        title="Other Awards & Recognition"
+        title="Other Awards & *Recognition*"
         desc="We take pride in the honors received by us for our exceptional achievements and contributions to empowering online sellers and fostering a thriving community."
       />
 
-      <ImgGrid data={teamImages} title="Meet our social seller team" />
+      <ImgGrid data={teamImages} title="Meet our social seller *team*" />
       <NewsReviews />
       <ImgGrid
-        title="Our Socialmedia Handle"
+        title="Our *Socialmedia* Handle"
         data={socialHandle}
         gridCount={"md:grid-cols-2"}
       />
@@ -74,7 +74,7 @@ const WhatsApp = () => {
       <ImgGrid
         gridCount={"grid-cols-3 md:grid-cols-4"}
         data={brandImages}
-        title="Premium E-commerce brands are our clients"
+        title="Premium *E-commerce brands* are our clients"
         desc="We collaborate with clients all over the world, providing international services and expertise"
       />
       <Faq />

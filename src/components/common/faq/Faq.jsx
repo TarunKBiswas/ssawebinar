@@ -1,5 +1,9 @@
 import Container from "../ui/Container";
-import Questions from "./Questions";
+// import Questions from "./Questions";
+// import { FaqSectionData } from "../../data/data";
+// import Container from "../../layout/Container";
+import Accordian, { AccordianItem } from "../ui/Accordian";
+import SectionCommunity from "../ui/SectionCommunity";
 
 const data = [
   {
@@ -25,23 +29,50 @@ const data = [
 ];
 
 const Faq = () => {
-  return (
-    <Container>
-      <div className="w-full flex flex-col items-center gap-10 lg:gap-14">
-        <div className="w-full flex flex-col items-center justify-center gap-6">
-          <p className="text-3xl leading-10 font-bold lg:text-[46px] text-center capitalize text-white">
-            Frequently Asked Quenstions
-          </p>
-        </div>
+  // return (
+  //   <Container>
+  //     <div className="w-full flex flex-col items-center gap-10 lg:gap-14">
+  //       <div className="w-full flex flex-col items-center justify-center gap-6">
+  //         <p className="text-3xl leading-10 font-bold lg:text-[46px] text-center capitalize text-white">
+  //           Frequently Asked Questions
+  //         </p>
+  //       </div>
 
-        <div className=" w-full">
-          {data?.map((data, i) => {
-            return <Questions key={`${"data"}+${i}`} data={data} />;
-          })}
-          {/* <hr className="gradient-border !border-b-0" /> */}
-        </div>
-      </div>
-    </Container>
+  //       <div className=" w-full">
+  //         {data?.map((data, i) => {
+  //           return <Questions key={`${"data"}+${i}`} data={data} />;
+  //         })}
+  //         {/* <hr className="gradient-border !border-b-0" /> */}
+  //       </div>
+  //     </div>
+  //   </Container>
+  // );
+
+  return (
+    <div className="w-full bg-transparent mt-[50px] md:mt-[100px] text-center">
+      <SectionCommunity
+        className="bg-transparent"
+        custom={true}
+        title="frequently asked *questions*"
+      >
+        <Container classes2={"px-0"}>
+          <div className="w-full flex flex-col items-center gap-10 lg:gap-14">
+            <Accordian>
+              {data?.map((data, i) => {
+                // console.log(data);
+                return (
+                  <AccordianItem key={i} value={i + 1} questions={data?.que}>
+                    <span className="w-full mr-auto text-[14px] md:text-[18px] leading-6 text-gray-400">
+                      {data?.ans}
+                    </span>
+                  </AccordianItem>
+                );
+              })}
+            </Accordian>
+          </div>
+        </Container>
+      </SectionCommunity>
+    </div>
   );
 };
 

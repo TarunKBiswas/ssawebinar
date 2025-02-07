@@ -10,7 +10,7 @@ const FirstStep = ({ data }) => {
       <SectionCommunity
         className="bg-transparent"
         custom={true}
-        title={"Take Your First Step Toward A Successful Online Business"}
+        title={"Take Your First Step Toward A *Successful Online Business*"}
       >
         <Container classes={"p-0"} classes2={"!px-0"}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-12">

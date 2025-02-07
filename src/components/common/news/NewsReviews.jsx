@@ -9,7 +9,7 @@ const NewsReviews = () => {
       <SectionCommunity
         className="bg-transparent"
         custom={true}
-        title={"News Reviews"}
+        title={"News *Reviews*"}
         description={
           "We take pride in the honors received by us for our exceptional achievements and contributions to empowering online sellers and fostering a thriving community."
         }

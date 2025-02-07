@@ -9,7 +9,7 @@ const CmAward = () => {
       <SectionCommunity
         className="bg-transparent"
         custom={true}
-        title={"Awarded by chief minister of Chhattisgarh"}
+        title={"Awarded by *chief minister of Chhattisgarh*"}
         description={
           "Social Seller Academy has provided online business opportunities to more than 25000+ online sellers in India."
         }

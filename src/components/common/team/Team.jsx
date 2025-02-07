@@ -8,7 +8,7 @@ const Team = () => {
       <SectionCommunity
         className="bg-transparent"
         custom={true}
-        title={"Meet our social seller team"}
+        title={"Meet our social seller *team*"}
         description={
           "What you’ll learn in This Webinar In this webinar, you will learn about the fundamentals of animation and game design, including the different animation techniques"
         }
